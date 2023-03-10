@@ -25,7 +25,7 @@ def run():
     ball_radius = 50
 
     while Status.RUNNING:
-        Status.clock.tick(120)
+        #Status.clock.tick(120)
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

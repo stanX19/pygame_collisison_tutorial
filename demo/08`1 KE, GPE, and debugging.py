@@ -71,11 +71,13 @@ def run():
             ball_yv = -ball_yv
 
         # acceleration downwards
-        ball_yv += gravitational_acceleration  # increasing velocity downwards per unit [frame]
+        ball_yv += gravitational_acceleration / 2  # increasing velocity downwards per unit [frame]
 
         # update ball's position
         ball_x += ball_xv
         ball_y += ball_yv
+
+        ball_yv += gravitational_acceleration / 2
 
         # draw the ball
         pygame.draw.circle(Status.window, ball_color, (ball_x, ball_y), ball_radius)

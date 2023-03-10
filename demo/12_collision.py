@@ -95,6 +95,9 @@ def run():
         Ball(900, 350, 1, 0, (100, 255, 100), 100, 50),
     ]
 
+    for i in range(100):
+        balls.append(Ball(i * 10, 350, 1, 0, (100, 255, 100), 100, 10),)
+
     while Status.RUNNING:
         Status.clock.tick(120)
 

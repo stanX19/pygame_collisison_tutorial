@@ -5,14 +5,14 @@ def run():
     pygame.init()
     pygame.display.set_caption("the best game ever")  # title
     clock = pygame.time.Clock()  # manages fps
-    screen_size = screen_size = (1200, 700)
+    screen_size = (1200, 700)
     window = pygame.display.set_mode(screen_size)  # to access our window
     RUNNING = True
 
     # ball data
-    ball_x = 600
-    ball_y = 350
-    ball_color = (255, 255, 255)
+    ball_x = 1100
+    ball_y = 650
+    ball_color = (255, 100, 100)
     ball_radius = 50
 
     while RUNNING:

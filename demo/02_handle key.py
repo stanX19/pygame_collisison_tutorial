@@ -5,7 +5,7 @@ def run():
     pygame.init()
     pygame.display.set_caption("the best game ever")  # title
     clock = pygame.time.Clock()  # manages fps
-    screen_size = screen_size = (1200, 700)
+    screen_size = (1200, 700)
     window = pygame.display.set_mode(screen_size)  # to access our window
     RUNNING = True
 
