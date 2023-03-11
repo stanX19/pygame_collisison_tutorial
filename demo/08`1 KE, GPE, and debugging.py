@@ -71,7 +71,7 @@ def run():
             ball_yv = -ball_yv
 
         # acceleration downwards
-        ball_yv += gravitational_acceleration / 2  # increasing velocity downwards per unit [frame]
+        ball_yv += gravitational_acceleration / 2  # because of the nature of v-t graph, must take half
 
         # update ball's position
         ball_x += ball_xv
